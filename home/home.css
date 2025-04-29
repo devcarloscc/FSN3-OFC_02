@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(71, 9, 28);
+}
+
+.logo {
+    width: 70px;
+    height: 60px;
+}
+
+a {
+    font-size: 20px;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(76, 43, 56);
+}
+
+.search-div {
+    display: flex;
+    justify-content: baseline;
+}
+
+.search {
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.search-icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.background {
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.title{
+    font-size: 30px;
+    font-family: "Tagesschrift", system-ui;
+    color: rgb(8, 90, 62);
+}
+
+.sub-title{
+    color: rgb(137, 80, 55);
+}
+
+.meet {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 25%;
+    opacity: 0.8;
+}
+
+.footer-div{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(71, 9, 28);
+    position: absolute;
+    top: 96%;
+}
+
+p, span{
+    cursor: pointer;
+    font-size: 10px;
+    font-family: "Tagesschrift", system-ui;
+    color: antiquewhite;
+}
+
+p:hover, span:hover{
+    
+    color: rgb(8, 90, 62);
+}
