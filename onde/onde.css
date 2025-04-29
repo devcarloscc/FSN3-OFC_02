@@ -60,7 +60,6 @@ a:hover {
     font-family: "Tagesschrift", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: rgb(0, 0, 0);
 }
 
 .background {
@@ -100,6 +99,7 @@ a:hover {
     border-radius: 30px;
     opacity: 1;
     display: block;
+
 }
 
 p, span{
@@ -125,6 +125,7 @@ p:hover, span:hover{
     display: none;
     opacity: 0;
     cursor: pointer;
+    transition: 0.4s ease;
     pointer-events: none;
 
 }
