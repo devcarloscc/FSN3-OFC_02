@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(217, 228, 228);
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -51,23 +55,81 @@ a:hover {
     height: 30px;
 }
 
+.title-locais{
+    backdrop-filter: blur(2px);
+    font-family: "Tagesschrift", system-ui;
+    font-size: 65px;
+    color:rgb(8, 90, 62);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.title-locais:hover{
+    color: rgb(36, 66, 32);
+    transition-delay: 0.2s;
+}
+
+.background-section{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fundo-locais{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.background-section{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-section{
+    background-color: darkgreen;
+    width: 100%;
+    position: absolute;
+    top: 105%;
+}
+
 .container{
-    background-color: blueviolet;
     width: 100%;
     display: flex;
-    margin: 0px auto;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .img-card{
+    width: 660px;
     background-size: cover;
-    width: 150px;
-    height: 200px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .card{
-    width: 100px;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(227, 235, 232);
+    border-radius: 10px;
+    width: 660px;
     height: 400px;
+    margin: 30px 0px;
+    background-color: beige;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.container-footer{
+    width: 100%;
 }
 
 .footer-div{
@@ -78,8 +140,21 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     background-color: rgb(71, 9, 28);
-    position: absolute;
-    top: 96%;
+}
+
+.subtitle-locais{
+    padding-top: 50px;
+    font-family: "Tagesschrift", system-ui;
+    font-size: 45px;
+    text-align: center;
+    backdrop-filter: blur(2px);
+}
+
+.descricao-subtitle{
+    text-align: center;
+    font-family: "Tagesschrift", system-ui;
+    font-size: 20px;
+    padding-bottom: 50px;
 }
 
 p, span{
